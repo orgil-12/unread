@@ -20,6 +20,13 @@ body {
   align-items: center;
 }
 
+.material-icons{
+  background-color: transparent;
+  color: white;
+  transform: translateX(-200px);
+  border: none;
+}
+
 .navbar-content-left {
   width: 311.89px;
   display: flex;
@@ -99,7 +106,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 750px;
+  height: auto;
+  padding-bottom: 8vw;
 }
 
 .hero-content {
@@ -140,6 +148,7 @@ body {
 
 .hero-content-right {
   margin-top: 45px;
+  width: 600px;
 }
 
 .hero-content-right .blinkTitle {
@@ -658,9 +667,10 @@ body {
   height: 633.9px;
   padding: 19px 0 0 19px;
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-template-rows: repeat(10, auto);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(10, 1fr);
   gap: 19px;
+  /* font-size: 1.26rem; */
 }
 
 .grid .grid-item1 {
@@ -756,7 +766,7 @@ body {
 }
 
 .grid-items {
-  height: 107px;
+  height: auto;
   border-radius: 0 0 18px 18px;
   background: #00000033;
   box-sizing: border-box;
@@ -764,16 +774,8 @@ body {
   position: relative;
 }
 
-.footer1 {
-  width: 548.5px;
-}
-
-.footers {
-  width: 264.75px;
-}
-
 .grid-items-footer-title {
-  height: 22px;
+  line-height: 22px;
   color: white;
   opacity: 0.6;
   font-size: 11.6px;
@@ -805,7 +807,7 @@ body {
 }
 
 .grid-body .under {
-  margin-top: 34.99px;
+  margin-top: 2vw;
 }
 
 .body2 .grid-item1 {
@@ -849,7 +851,7 @@ body {
 }
 
 .grid-under-white-section {
-  height: 82px;
+  height: 5vw;
   background-color: whitesmoke;
   border-radius: 0 0 36px 36px;
 }
@@ -877,6 +879,7 @@ body {
 .body-button {
   background-image: url(btn-black.png);
   background-position: center;
+  background-size: cover;
   width: 323px;
   height: 90px;
   margin-top: 49px;
@@ -887,6 +890,12 @@ body {
   box-sizing: border-box;
   position: relative;
   transition: all 0.2s ease-in-out;
+  border: none;
+}
+
+.body-button-texts{
+  width: auto;
+  height: auto;
 }
 
 .body-button-text-top {
@@ -950,18 +959,22 @@ body {
 
 .app-link {
   display: flex;
-  gap: 14.55px;
+  gap: 25.55vw;
   margin-left: 50px;
   margin-top: 56px;
+  width: auto;
+  height: auto;
 }
 
 .body-right-section {
-  width: 650px;
-  height: 403px;
+  width: auto;
+  height: auto;
   margin-left: 49.61px;
 }
 
 .right-section-title {
+  width: auto;
+  height: auto;
   margin-top: 0.5px;
   line-height: 20px;
   margin-left: 40px;
@@ -977,8 +990,8 @@ body {
 }
 
 .right-section-title p {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .right-section-title span:hover {
