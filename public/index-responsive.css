@@ -250,9 +250,12 @@
     width: 100%;
     height: auto;
   }
+  .body-left-section .logo{
+    margin-left: 10vw;
+  }
   .body-button{
     width: 70vw;
-    height: 18vw;
+    height: 9vh;
   }
   .number3{
     margin-top: 20px;
@@ -261,8 +264,36 @@
     width: 14vw;
     height: 10.57vw;
   }
+  .app-link{
+    margin-left: 10vw;
+    gap: 25.55vw;
+  }
   .right-section-title p {
     margin-left: 3vw;
     margin-right: 3vw;
+  }
+  .message-body-title {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .message-body img{
+    display: none;
+  }
+  .body-button-arrow{
+    display: none;
+  }
+  .body-right-section-list {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 3vh;
+    margin-left: 10vw;
+  }
+  .right-section-title {
+    display: block;
+  }
+  .navbar-content-left{
+    display: none;
   }
 }
